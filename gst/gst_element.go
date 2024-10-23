@@ -643,6 +643,10 @@ func (e *Element) SeekSimple(position int64, format Format, flag SeekFlags) bool
 	return gobool(result)
 }
 
+func (e *Element) Seek(rate float64, format Format, flags SeekFlags, startType SeekType, start int64, stopType SeekType, stop int64) bool {
+	return C.gst_element_seek(e.Instance(), C.gdouble(rate), C.GstFormat(format), C.GstSeekFlags(flags), C.GstSeekType(startType), C.gint64(start), C.GstSeekType(stopType), C.gint64(stop)) == 1
+}
+
 // SeekTime seeks to the given position time in the stream. The element / pipeline should be in the PAUSED or PLAYING state and must be a seekable.
 //
 // For example, to seek to 40th second of the stream, use:
