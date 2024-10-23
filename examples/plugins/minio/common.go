@@ -9,9 +9,9 @@ import (
 	"os"
 
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 const (

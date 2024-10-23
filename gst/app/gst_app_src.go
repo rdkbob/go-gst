@@ -20,9 +20,9 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
 	gopointer "github.com/mattn/go-pointer"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/base"
 )
 
 // SourceCallbacks represents callbacks to configure on an AppSource.

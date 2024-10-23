@@ -2,11 +2,11 @@
 
 # go-gst: Go bindings for the GStreamer C libraries
 
-[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/go-gst/go-gst)
-[![GoReportCard](https://goreportcard.com/badge/github.com/go-gst/go-gst)](https://goreportcard.com/report/github.com/go-gst/go-gst)
-<!-- ![](https://github.com/go-gst/go-gst/workflows/Tests/badge.svg) -->
+[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/rdkbob/go-gst)
+[![GoReportCard](https://goreportcard.com/badge/github.com/rdkbob/go-gst)](https://goreportcard.com/report/github.com/rdkbob/go-gst)
+<!-- ![](https://github.com/rdkbob/go-gst/workflows/Tests/badge.svg) -->
 
-See [pkg.go.dev](https://pkg.go.dev/github.com/go-gst/go-gst) references for documentation and examples.
+See [pkg.go.dev](https://pkg.go.dev/github.com/rdkbob/go-gst) references for documentation and examples.
 
 Please make sure that you have followed the [official gstreamer installation instructions](https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c) before attempting to use the bindings or file an issue.
 
@@ -53,7 +53,7 @@ import (
     "strings"
 
     "github.com/go-gst/go-glib/glib"
-    "github.com/go-gst/go-gst/gst"
+    "github.com/rdkbob/go-gst/gst"
 )
 
 func main() {
@@ -116,7 +116,7 @@ func main() {
 If you find any issues with the bindings or spot areas where things can be improved, feel free to open a PR or start an Issue. A few things to note:
 
  - Compilation times are insanely slow when working within the bindings.
- - There are a lot of quirks that make generators difficult to deal with for these bindings, so currently everything is hand written. If you have a need for a new binding, feel free to open an issue or create a PR. Writing CGo bindings is not as hard as it seems. (Take a look at https://github.com/go-gst/go-gst/pull/53 for inspiration)
+ - There are a lot of quirks that make generators difficult to deal with for these bindings, so currently everything is hand written. If you have a need for a new binding, feel free to open an issue or create a PR. Writing CGo bindings is not as hard as it seems. (Take a look at https://github.com/rdkbob/go-gst/pull/53 for inspiration)
  - More examples would be nice.
  - Support for writing GStreamer plugins and custom elements via the bindings is there, but not well documented.
  - go-gst follows semantic versioning, so it should always be forward compatible for minor versions. If we find an issue in a function and the only way to fix it is to change the function signature, we will break it in a minor version. That way you "get forced" to use the fixed version.

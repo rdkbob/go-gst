@@ -10,7 +10,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 // TypeFindHelper tries to find what type of data is flowing from the given source GstPad.

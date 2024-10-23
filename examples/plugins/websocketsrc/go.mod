@@ -1,10 +1,10 @@
-module github.com/go-gst/go-gst/examples/plugins/websocketsrc
+module github.com/rdkbob/go-gst/examples/plugins/websocketsrc
 
 go 1.22
 
 require (
 	github.com/go-gst/go-glib v1.2.1
-	github.com/go-gst/go-gst v1.2.1
+	github.com/rdkbob/go-gst v1.2.1
 	golang.org/x/net v0.29.0
 )
 

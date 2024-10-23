@@ -7,7 +7,7 @@ import "C"
 
 import (
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 // GstPushSrc represents a GstBaseSrc.

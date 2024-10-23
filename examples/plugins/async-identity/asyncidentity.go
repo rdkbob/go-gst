@@ -6,7 +6,7 @@
 // +plugin:License=gst.LicenseLGPL
 // +plugin:Source=go-gst
 // +plugin:Package=examples
-// +plugin:Origin=https://github.com/go-gst/go-gst
+// +plugin:Origin=https://github.com/rdkbob/go-gst
 // +plugin:ReleaseDate=2024-09-13
 //
 // +element:Name=asyncidentity
@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 var (

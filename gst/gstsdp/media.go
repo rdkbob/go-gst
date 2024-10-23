@@ -7,7 +7,7 @@ import (
 	"iter"
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 type Media struct {

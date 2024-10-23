@@ -10,7 +10,7 @@ import (
 
 	gopointer "github.com/mattn/go-pointer"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 //export goGstCollectPadsBufferFunc

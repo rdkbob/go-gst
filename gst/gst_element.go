@@ -666,7 +666,7 @@ func (e *Element) SeekDefault(position int64, flag SeekFlags) bool {
 }
 
 // this prevents go pointers in cgo when setting a gst.Element to a property
-// see (https://github.com/go-gst/go-gst/issues/65)
+// see (https://github.com/rdkbob/go-gst/issues/65)
 // ToGValue implements glib.ValueTransformer.
 func (e *Element) ToGValue() (*glib.Value, error) {
 	val, err := glib.ValueInit(glib.Type(C.GST_TYPE_ELEMENT))

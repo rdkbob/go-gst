@@ -15,8 +15,8 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/base"
 )
 
 // The metadata for this plugin

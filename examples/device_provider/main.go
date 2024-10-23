@@ -8,8 +8,8 @@ import (
 	"os"
 
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/examples"
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/examples"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 func runPipeline(loop *glib.MainLoop) error {

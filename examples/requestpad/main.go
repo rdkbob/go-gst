@@ -3,11 +3,12 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/examples"
-	"github.com/go-gst/go-gst/gst"
 	"os"
 	"time"
+
+	"github.com/go-gst/go-glib/glib"
+	"github.com/rdkbob/go-gst/examples"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 type workflow struct {

@@ -1,10 +1,10 @@
-module github.com/go-gst/go-gst/examples/plugins/minio
+module github.com/rdkbob/go-gst/examples/plugins/minio
 
 go 1.22
 
 require (
 	github.com/go-gst/go-glib v1.2.1
-	github.com/go-gst/go-gst v1.2.1
+	github.com/rdkbob/go-gst v1.2.2
 	github.com/minio/minio-go/v7 v7.0.76
 )
 

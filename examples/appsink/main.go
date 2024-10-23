@@ -7,9 +7,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/go-gst/go-gst/examples"
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/app"
+	"github.com/rdkbob/go-gst/examples"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/app"
 )
 
 func createPipeline() (*gst.Pipeline, error) {

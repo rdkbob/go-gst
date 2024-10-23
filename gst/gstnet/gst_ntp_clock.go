@@ -8,7 +8,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 // NTP timestamps are relative to 1. Jan 1900, so we need an offset for 70 Years to be Unix TS compatible

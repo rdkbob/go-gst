@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/gstsdp"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/gstsdp"
 )
 
 func TestSessionDescription(t *testing.T) {

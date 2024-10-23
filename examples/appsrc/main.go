@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/examples"
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/app"
-	"github.com/go-gst/go-gst/gst/video"
+	"github.com/rdkbob/go-gst/examples"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/app"
+	"github.com/rdkbob/go-gst/gst/video"
 )
 
 const width = 320

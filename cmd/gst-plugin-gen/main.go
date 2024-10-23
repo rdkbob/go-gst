@@ -133,9 +133,9 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 	{{- if (.Config.Element.Subclass | extendsFromBase) }}
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/rdkbob/go-gst/gst/base"
 	{{- end }}
 )
 

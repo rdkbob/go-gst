@@ -11,8 +11,8 @@ import (
 	minio "github.com/minio/minio-go/v7"
 
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/base"
 )
 
 var srcCAT = gst.NewDebugCategory(

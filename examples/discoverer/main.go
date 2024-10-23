@@ -15,8 +15,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/pbutils"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/pbutils"
 )
 
 func main() {

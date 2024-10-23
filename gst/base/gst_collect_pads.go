@@ -62,7 +62,7 @@ import (
 
 	gopointer "github.com/mattn/go-pointer"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 // CollectPadsBufferFunc is a function that will be called when a (considered oldest) buffer can be muxed.

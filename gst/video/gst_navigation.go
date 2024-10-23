@@ -13,7 +13,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst"
 )
 
 // NavigationCommand is a set of commands that may be issued to an element providing the

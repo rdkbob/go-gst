@@ -1,4 +1,4 @@
-module github.com/go-gst/go-gst
+module github.com/rdkbob/go-gst
 
 go 1.23
 

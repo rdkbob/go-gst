@@ -48,7 +48,7 @@ type Bus struct {
 //	import (
 //	    "fmt"
 //
-//	    "github.com/go-gst/go-gst/gst"
+//	    "github.com/rdkbob/go-gst/gst"
 //	)
 //
 //	func main() {

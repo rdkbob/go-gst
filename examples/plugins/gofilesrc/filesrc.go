@@ -19,7 +19,7 @@
 // +plugin:License=gst.LicenseLGPL
 // +plugin:Source=go-gst
 // +plugin:Package=examples
-// +plugin:Origin=https://github.com/go-gst/go-gst
+// +plugin:Origin=https://github.com/rdkbob/go-gst
 // +plugin:ReleaseDate=2021-01-04
 //
 // +element:Name=gofilesrc
@@ -39,8 +39,8 @@ import (
 	"strings"
 
 	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/rdkbob/go-gst/gst"
+	"github.com/rdkbob/go-gst/gst/base"
 )
 
 // main is left unimplemented since these files are compiled to c-shared.
